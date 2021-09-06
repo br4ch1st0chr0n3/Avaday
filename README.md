@@ -8,21 +8,29 @@
 
 ### Install _PyQt6_
 
-`$ sudo apt install PyQt6`
+```sh
+$ sudo apt install PyQt6
+```
 
 ### Install pyqtgraph
 
-`$ sudo apt install pyqtgraph`
+```sh
+$ sudo apt install pyqtgraph
+```
 
 ### Install PyOpenGL
 
-`$ pip install PyOpenGL`
+```sh
+$ pip install PyOpenGL
+```
+
 
 ### Install OpenGL
 
-`$ sudo apt-get update`
-
-`$ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev`
+```sh
+$ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+$ sudo apt-get update
+```
 
 ### Change library a bit
 
@@ -57,4 +65,6 @@ self.opts['azimuth'] = 0             ## camera's azimuthal angle in degrees
 
 ## Running on Linux
 
-`$ python main.py`
+```sh
+$ python main.py
+```
